@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "HelveticaRoman";
+  src: url("../public/HelveticaRoman.ttf");
+}
+
+.body {
+  font-family: HelveticaRoman;
+}
+
+.App {
+  text-align: center;
+}
+
+:root {
+  --dark-gray: #303434;
+  --med-gray: #555555;
+  --light-gray: #7e7e76;
+  --silver: #a4a2a2;
+  --light-silver: #acacac;
+}
+
+.row {
+  margin: 0;
+}
+
+/* nav-bar */
+.navbar {
+  background-color: var(--dark-gray);
+  min-height: 8vh;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  opacity: 98%;
+  font-size: 1.25rem;
+}
+
+.nav-link {
+  font-weight: bold;
+  font-family: HelveticaRoman;
+  color: var(--light-silver);
+}
+
+.nav-link:hover {
+  color: var(--light-gray);
+}
+
+/* sections */
+.section {
+  min-height: 92vh;
+}
+
+.section:nth-child(odd) {
+  background-color: var(--dark-gray);
+  color: var(--light-gray);
+}
+
+.section:nth-child(even) {
+  background-color: var(--light-silver);
+  color: var(--dark-gray);
+}
+
+.hero-container {
+  box-sizing: border-box;
+  margin-left: 10%;
+  margin-right: 10%;
+}
