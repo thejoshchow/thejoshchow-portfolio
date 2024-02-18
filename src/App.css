@@ -20,10 +20,6 @@ h3 {
   margin-bottom: 1rem;
 }
 
-/* .App {
-  text-align: center;
-} */
-
 :root {
   --dark-gray: #303434;
   --med-gray: #555555;
@@ -58,6 +54,10 @@ h3 {
   color: var(--light-gray);
 }
 
+.nav-brand {
+  color: black;
+}
+
 /* sections */
 .section {
   min-height: 100vh;
@@ -74,19 +74,42 @@ h3 {
   color: var(--dark-gray);
 }
 
+/* hero */
 #hero h1 {
   font-family: "Courier New", Courier, monospace;
 }
 
+/* projects */
 .card {
   background-color: var(--med-gray);
   border: white;
   border-radius: 0px;
 }
 
+/* contact */
+.form-control {
+  background-color: var(--light-silver);
+  border: black;
+  border-style: solid;
+}
+
+.form-control:focus {
+  background-color: var(--light-silver);
+}
+
+#contact button {
+  background-color: var(--dark-gray);
+  border-radius: 0px;
+  border: none;
+}
+
+#contact button:hover {
+  background-color: var(--light-gray);
+}
+
 /* footer */
 #footer {
   min-height: 10vh;
-  background-color: var(--med-gray);
+  background-color: var(--dark-gray);
   color: var(--light-silver);
 }

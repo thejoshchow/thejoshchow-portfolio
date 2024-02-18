@@ -33,9 +33,9 @@ const Projects = () => {
     },
   ];
   return (
-    <section id="projects" className="section">
+    <section id="projects" className="section row">
       {/* <div className="container d-flex justify-content-center align-items-center"></div> */}
-      <div className="container">
+      <div className="container d-flex flex-column justify-content-center align-items-center">
         <h3>projects</h3>
         <div className="d-flex justify-content-center align-items-center">
           {projects.map((project) => {

@@ -15,7 +15,13 @@ const NavBar = () => {
     <>
       <Navbar id="navbar" className="navbar-top" expand="lg" sticky="top">
         <Container className="d-flex">
-          <Nav className="d-flex justify-content-around">
+          <Nav className="d-flex justify-content-around align-items-center">
+            <Nav.Item
+              className="mx-3 nav-brand"
+              onClick={() => scrollToSection("hero")}
+            >
+              J M C
+            </Nav.Item>
             <Nav.Item className="mx-3" onClick={() => scrollToSection("about")}>
               about
             </Nav.Item>
