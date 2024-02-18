@@ -2,16 +2,20 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div id="hero" className="section row">
-      <div className="hero-container row">
-        <div className="d-flex col-6 justify-content-center align-items-center">
-          <h1>Joshua Chow</h1>
-        </div>
-        <div className="d-flex col-6 justify-content-center align-items-center">
-          <img src="" alt="..." />
+    <section id="hero" className="section row">
+      <div className="d-flex justify-content-center align-items-center">
+        <div className="container d-flex flex-row row">
+          <div className="col d-flex flex-column align-items-end">
+            <h1>joshua chow</h1>
+            <h3>{"<full-stack software engineer />"}</h3>
+          </div>
+          <div className="col d-flex flex-column align-items-start">
+            <h1>right</h1>
+            <h3>headline 3</h3>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
