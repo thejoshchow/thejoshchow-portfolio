@@ -13,7 +13,13 @@ const NavBar = () => {
   };
   return (
     <>
-      <Navbar id="navbar" className="navbar-top" expand="lg" sticky="top">
+      <Navbar
+        id="navbar"
+        collapseOnSelect
+        className="navbar-top"
+        // expand="md"
+        sticky="top"
+      >
         <Container className="d-flex">
           <Nav className="d-flex justify-content-around align-items-center">
             <Nav.Item

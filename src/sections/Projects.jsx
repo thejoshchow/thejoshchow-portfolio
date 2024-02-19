@@ -6,6 +6,7 @@ const Projects = () => {
     return (
       <Card>
         <Card.Img
+          className="img-fluid"
           variant="top"
           src={
             project.screenshot === ""
@@ -14,7 +15,10 @@ const Projects = () => {
           }
           alt="..."
         />
-        <Card.Header className="d-flex justify-content-center">
+        <Card.Header className="d-flex justify-content-around">
+          <a className="btn card-button" href={project.website}>
+            web app
+          </a>
           <a className="btn card-button" href={project.repo}>
             github
           </a>
@@ -48,9 +52,17 @@ const Projects = () => {
       screenshot: "img/travelbuddy.png",
       description:
         "Travel buddy is a web application designed to help facilitate and encourage the the conversation around planning a group trip. The project consists of a postgresql database served by a fastapi server and a react frontend with ui components provided bootstrap components as well as custom css styling. Front-end authentication and authorization is hand-built using redux toolkit and rtk query.",
-      tech: ["Python", "FastAPI", "Javascript", "React", "Redux", "CSS"],
+      tech: [
+        "Python",
+        "FastAPI",
+        "Javascript",
+        "React",
+        "Redux",
+        "HTML",
+        "CSS",
+      ],
       website: "",
-      repo: "",
+      repo: "https://github.com/thejoshchow/travelbuddy",
     },
     {
       name: "CarCar",
@@ -68,25 +80,25 @@ const Projects = () => {
       website: "",
       repo: "",
     },
-    {
-      name: "",
-      screenshot: "",
-      description: "",
-      tech: [],
-      website: "",
-      repo: "",
-    },
+    // {
+    //   name: "",
+    //   screenshot: "",
+    //   description: "",
+    //   tech: [],
+    //   website: "",
+    //   repo: "",
+    // },
   ];
   return (
-    <section id="projects" className="section row">
-      <div className="d-flex flex-column justify-content-center align-items-center">
-        <div className="container">
-          <h3 className="m-auto">projects</h3>
-        </div>
-        <div className="container d-flex flex-wrap p-5">
+    <section id="projects" className="section">
+      <div className="container d-flex flex-column align-items-between justify-content-center m-auto">
+        <div className="row d-flex p-3">
+          <div className="p-5">
+            <h3>projects</h3>
+          </div>
           {projects.map((project) => {
             return (
-              <div key={project.name} className="col-12 col-xl-3 m-5">
+              <div key={project.name} className="col-12 col-lg-6 col-xl-4 mb-4">
                 {projectCard(project)}
               </div>
             );

@@ -3,10 +3,10 @@ import React from "react";
 const About = () => {
   return (
     <section id="about" className="section row">
-      <div className="d-flex align-items-center justify-content-center">
-        <div className="col-xl-6 d-flex flex-column align-items-end"></div>
+      <div className="d-flex flex-row flex-wrap align-items-center justify-content-center">
+        <div className="col-12 col-lg-6 d-flex flex-column align-items-end"></div>
         <div
-          className="col-xl-6 d-flex flex-column align-items-start"
+          className="col-12 col-lg-6 d-flex flex-column align-items-start"
           style={{ paddingRight: "10rem" }}
         >
           <h1>hello, world</h1>
@@ -28,9 +28,9 @@ const About = () => {
       </div>
       <div className="container pt-5">
         <div className="d-flex flex-row justify-content-center flex-wrap">
-          <h5 className="tech">react</h5>
           <h5 className="tech">python</h5>
           <h5 className="tech">javascript</h5>
+          <h5 className="tech">react</h5>
           <h5 className="tech">redux</h5>
           <h5 className="tech">fastapi</h5>
           <h5 className="tech">django</h5>
