@@ -26,7 +26,7 @@ const NavBar = () => {
               className="mx-3 nav-brand logo"
               onClick={() => scrollToSection("hero")}
             >
-              <img src="jmc-logo.png" width="30px" height="30px" />
+              <img src="jmc-logo.png" width="30px" height="30px" alt="logo" />
             </Navbar.Brand>
             <Nav.Item className="mx-3" onClick={() => scrollToSection("about")}>
               about
