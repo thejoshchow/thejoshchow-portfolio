@@ -181,6 +181,10 @@
   margin: 0 5px;
 }
 
+.card-button:hover {
+  background-color: var(--light-gray);
+}
+
 .badge {
   margin: 5px;
   font-weight: 400;
@@ -191,10 +195,6 @@
   margin-bottom: 0.25rem;
   background-color: var(--dark-gray);
   color: var(--silver);
-}
-
-.card-button:hover {
-  background-color: var(--light-gray);
 }
 
 /* contact */

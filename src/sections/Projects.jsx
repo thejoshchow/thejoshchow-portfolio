@@ -16,9 +16,9 @@ const Projects = () => {
           alt="..."
         />
         <Card.Header className="d-flex justify-content-around">
-          <a className="btn card-button" href={project.website}>
+          {/* <a className="btn card-button" href={project.website}>
             web app
-          </a>
+          </a> */}
           <a className="btn card-button" href={project.repo}>
             github
           </a>

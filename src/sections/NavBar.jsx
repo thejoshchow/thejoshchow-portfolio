@@ -22,12 +22,12 @@ const NavBar = () => {
       >
         <Container className="d-flex">
           <Nav className="d-flex justify-content-around align-items-center">
-            <Nav.Item
-              className="mx-3 nav-brand"
+            <Navbar.Brand
+              className="mx-3 nav-brand logo"
               onClick={() => scrollToSection("hero")}
             >
-              J M C
-            </Nav.Item>
+              <img src="jmc-logo.png" width="30px" height="30px" />
+            </Navbar.Brand>
             <Nav.Item className="mx-3" onClick={() => scrollToSection("about")}>
               about
             </Nav.Item>
