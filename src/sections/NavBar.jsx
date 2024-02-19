@@ -37,7 +37,6 @@ const NavBar = () => {
                 role="button"
                 href="../chow_joshua.pdf"
                 target="_blank"
-                rel="noreferrer"
               >
                 resume
               </a>
