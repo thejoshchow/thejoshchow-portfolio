@@ -7,7 +7,7 @@ const About = () => {
         <div className="col-12 col-lg-6 d-flex flex-column align-items-end"></div>
         <div
           className="col-12 col-lg-6 d-flex flex-column align-items-start"
-          style={{ paddingRight: "15rem" }}
+          style={{ paddingRight: "10%" }}
         >
           <h1>hello, world</h1>
           <h1 className="py-3">i'm josh</h1>
