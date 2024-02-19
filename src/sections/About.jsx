@@ -7,22 +7,20 @@ const About = () => {
         <div className="col-12 col-lg-6 d-flex flex-column align-items-end"></div>
         <div
           className="col-12 col-lg-6 d-flex flex-column align-items-start"
-          style={{ paddingRight: "10rem" }}
+          style={{ paddingRight: "15rem" }}
         >
           <h1>hello, world</h1>
-          <h1>i'm josh</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-            euismod non dui sit amet tempus. Vivamus non viverra est. Nulla
-            vehicula magna consectetur, auctor mauris ac, imperdiet lorem. Donec
-            pellentesque auctor nibh, et suscipit est rutrum non. Praesent
-            semper enim tellus, sit amet euismod lacus luctus dignissim. Donec
-            ornare sem ut mauris pulvinar, a convallis lorem faucibus. Donec
-            elementum rutrum libero. Nunc efficitur dolor justo, in luctus diam
-            blandit in. Cras malesuada in elit et viverra. Phasellus eu libero
-            purus. Fusce elementum ut elit sit amet tristique. Nullam id dapibus
-            quam. Curabitur in ornare diam, sit amet volutpat massa. Cras quis
-            tellus nibh.
+          <h1 className="py-3">i'm josh</h1>
+          <p className="py-5">
+            Passionate Software Engineer with a love for crafting elegant
+            solutions in the digital realm. When not immersed in code, you'll
+            find me exploring the great outdoors—whether conquering trails on a
+            hike, carving fresh powder on a snowboard, or cruising scenic routes
+            on a bike. With a knack for problem-solving in both the tech and
+            natural landscapes, I thrive on the dynamic challenges each brings.
+            Committed to continuous learning and embracing new adventures, I
+            bring a sense of curiosity and enthusiasm to both the world of
+            software development and the vast wilderness beyond.
           </p>
         </div>
       </div>
