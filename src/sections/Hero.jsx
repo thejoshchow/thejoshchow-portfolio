@@ -13,6 +13,7 @@ const Hero = () => {
               className="mx-3"
               href="https://linkedin.com/in/thejoshchow"
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 src="img/linkedin.png"
@@ -25,6 +26,7 @@ const Hero = () => {
               className="mx-3"
               href="https://github.com/thejoshchow"
               target="_blank"
+              rel="noreferrer"
             >
               <img src="img/github.png" alt="..." width="45px" hegiht="45px" />
             </a>
