@@ -16,9 +16,9 @@ const Projects = () => {
           alt="..."
         />
         <Card.Header className="d-flex justify-content-around">
-          {/* <a className="btn card-button" href={project.website}>
+          <a className="btn card-button" href={project.website}>
             web app
-          </a> */}
+          </a>
           <a className="btn card-button" href={project.repo}>
             github
           </a>
@@ -43,8 +43,8 @@ const Projects = () => {
       screenshot: "img/portfolio.png",
       description:
         "Single-page application built with React and selective styling using Bootstrap and HTML/CSS.",
-      tech: ["Javascript", "React", "HTML", "CSS"],
-      website: "",
+      tech: ["Javascript", "React", "Bootstrap", "HTML", "CSS"],
+      website: "https://thejoshchow.netlify.app",
       repo: "https://github.com/thejoshchow/thejoshchow-portfolio",
     },
     {
@@ -61,7 +61,7 @@ const Projects = () => {
         "HTML",
         "CSS",
       ],
-      website: "",
+      website: "https://thethirteen.gitlab.io/travelbuddy",
       repo: "https://github.com/thejoshchow/travelbuddy",
     },
     {
@@ -70,7 +70,7 @@ const Projects = () => {
       description: "CarCar...",
       tech: ["Python", "Django", "React"],
       website: "",
-      repo: "",
+      repo: "https://github.com/thejoshchow/carcar",
     },
     {
       name: "",
@@ -92,7 +92,7 @@ const Projects = () => {
   return (
     <section id="projects" className="section">
       <div className="container d-flex flex-column align-items-between justify-content-center m-auto">
-        <div className="row d-flex p-3">
+        <div className="row d-flex p-3 mb-5">
           <div className="p-5">
             <h3>projects</h3>
           </div>

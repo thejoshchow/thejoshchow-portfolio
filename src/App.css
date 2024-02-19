@@ -35,14 +35,11 @@
   font-family: HelveticaRoman;
   color: var(--light-silver);
   cursor: pointer;
+  margin: 0 1rem;
 }
 
 .nav-item:hover {
   color: var(--light-gray);
-}
-
-.nav-brand {
-  color: black;
 }
 
 /* sections */

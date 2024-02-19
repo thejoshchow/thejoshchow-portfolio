@@ -12,42 +12,30 @@ const NavBar = () => {
     }
   };
   return (
-    <>
-      <Navbar
-        id="navbar"
-        collapseOnSelect
-        className="navbar-top"
-        // expand="md"
-        sticky="top"
-      >
-        <Container className="d-flex">
-          <Nav className="d-flex justify-content-around align-items-center">
-            <Navbar.Brand
-              className="mx-3 nav-brand logo"
-              onClick={() => scrollToSection("hero")}
-              style={{ cursor: "pointer" }}
-            >
-              <img src="jmc-logo.png" width="30px" height="30px" alt="logo" />
-            </Navbar.Brand>
-            <Nav.Item className="mx-3" onClick={() => scrollToSection("about")}>
-              about
-            </Nav.Item>
-            <Nav.Item
-              className="mx-3"
-              onClick={() => scrollToSection("projects")}
-            >
+    <Navbar id="navbar" className="navbar-top" expand="md" sticky="top">
+      <Container className="d-flex align-items-center">
+        <Navbar.Brand
+          className="mx-3 nav-brand"
+          onClick={() => scrollToSection("hero")}
+          style={{ cursor: "pointer" }}
+        >
+          <img src="jmc-logo.png" width="30px" height="30px" alt="logo" />
+        </Navbar.Brand>
+        <Navbar.Toggle />
+        <Navbar.Collapse>
+          <Nav className="me-auto">
+            <Nav.Item onClick={() => scrollToSection("about")}>about</Nav.Item>
+            <Nav.Item onClick={() => scrollToSection("projects")}>
               projects
             </Nav.Item>
-            <Nav.Item
-              className="mx-3"
-              onClick={() => scrollToSection("contact")}
-            >
+            <Nav.Item onClick={() => scrollToSection("contact")}>
               contact
             </Nav.Item>
+            {/* <Nav.Item href="public/chow_joshua.pdf">resume</Nav.Item> */}
           </Nav>
-        </Container>
-      </Navbar>
-    </>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 };
 
