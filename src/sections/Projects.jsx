@@ -67,18 +67,11 @@ const Projects = () => {
     {
       name: "CarCar",
       screenshot: "",
-      description: "CarCar...",
-      tech: ["Python", "Django", "React"],
+      description:
+        "CarCar is an application built for a car dealership to track inventory, sales and service records. The backend is serviced by a django and composed of three seperate microservices, and the frontend built with javascript and react.",
+      tech: ["Python", "Django", "React", "Bootstrap"],
       website: "",
       repo: "https://github.com/thejoshchow/carcar",
-    },
-    {
-      name: "",
-      screenshot: "",
-      description: "",
-      tech: [],
-      website: "",
-      repo: "",
     },
     // {
     //   name: "",

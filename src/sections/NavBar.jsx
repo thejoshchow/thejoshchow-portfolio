@@ -31,11 +31,80 @@ const NavBar = () => {
             <Nav.Item onClick={() => scrollToSection("contact")}>
               contact
             </Nav.Item>
-            {/* <Nav.Item href="public/chow_joshua.pdf">resume</Nav.Item> */}
+            <Nav.Item>
+              <a className="nav-button" role="button" href="../chow_joshua.pdf">
+                resume
+              </a>
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
+
+    // <div
+    //   id="navbar"
+    //   className="navbar-top navbar navbar-expand-md navbar-light sticky-top"
+    // >
+    //   <div className="container d-flex align-items-center">
+    //     <div
+    //       className="navbar-brand"
+    //       href="#"
+    //       onClick={() => scrollToSection("hero")}
+    //       style={{ cursor: "pointer" }}
+    //     >
+    //       <img src="jmc-logo.png" alt="logo" width="30" height="30" />
+    //     </div>
+    //     <button
+    //       className="navbar-toggler"
+    //       type="button"
+    //       data-bs-toggle="collapse"
+    //       data-bs-target="#navbarSupportedContent"
+    //       aria-controls="navbarSupportedContent"
+    //       aria-expanded="false"
+    //       aria-label="Toggle navigation"
+    //     >
+    //       <span className="navbar-toggler-icon"></span>
+    //     </button>
+    //     <div className="collapse navbar-collapse" id="navbarSupportedContent">
+    //       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+    //         <li className="nav-item">
+    //           <span
+    //             className="nav-link"
+    //             onClick={() => scrollToSection("about")}
+    //           >
+    //             about
+    //           </span>
+    //         </li>
+    //         <li className="nav-item">
+    //           <span
+    //             className="nav-link"
+    //             onClick={() => scrollToSection("projects")}
+    //           >
+    //             projects
+    //           </span>
+    //         </li>
+    //         <li className="nav-item">
+    //           <span
+    //             className="nav-link"
+    //             onClick={() => scrollToSection("contact")}
+    //           >
+    //             contact
+    //           </span>
+    //         </li>
+    //         <li className="nav-item">
+    //           <a
+    //             className="nav-link"
+    //             href="../chow_joshua.pdf"
+    //             role="button"
+    //             target="_blank"
+    //           >
+    //             resume
+    //           </a>
+    //         </li>
+    //       </ul>
+    //     </div>
+    //   </div>
+    // </div>
   );
 };
 

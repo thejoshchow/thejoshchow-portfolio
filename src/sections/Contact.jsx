@@ -57,14 +57,14 @@ const Contact = () => {
       >
         <Modal.Header closeButton>
           <Modal.Title id="contained-modal-title-vcenter">
-            Message sent
+            message sent
           </Modal.Title>
         </Modal.Header>
-        <Modal.Footer>
+        {/* <Modal.Footer className="d-flex justify-content-center">
           <Button className="dark-button" onClick={() => setShowModal(false)}>
             Close
           </Button>
-        </Modal.Footer>
+        </Modal.Footer> */}
       </Modal>
       <div className="d-flex flex-row justify-content-center align-items-center">
         <div className="container d-flex flex-wrap">

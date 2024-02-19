@@ -26,7 +26,7 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="container pt-5">
+      <div className="container m-auto">
         <div className="d-flex flex-row justify-content-center flex-wrap">
           <h5 className="tech">python</h5>
           <h5 className="tech">javascript</h5>
