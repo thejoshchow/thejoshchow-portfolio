@@ -3,29 +3,18 @@
   src: url("../public/HelveticaRoman.ttf");
 }
 
-.body {
-  font-family: HelveticaRoman;
-  background-color: var(--light-silver);
-  color: var(--silver);
-}
-
-h1 {
-  font-size: 5rem;
-  padding: 1rem;
-  margin-bottom: 1rem;
-}
-
-h3 {
-  padding: 1rem;
-  margin-bottom: 1rem;
-}
-
 :root {
   --dark-gray: #303434;
   --med-gray: #555555;
   --light-gray: #7e7e76;
   --silver: #a4a2a2;
   --light-silver: #acacac;
+}
+
+.body {
+  font-family: HelveticaRoman;
+  background-color: var(--light-silver);
+  color: var(--silver);
 }
 
 .row {
@@ -36,10 +25,8 @@ h3 {
 .navbar {
   background-color: var(--dark-gray);
   min-height: 8vh;
-  /* position: sticky;
-  top: 0; */
   width: 100%;
-  opacity: 98%;
+  opacity: 95%;
   font-size: 1.25rem;
 }
 
@@ -75,15 +62,69 @@ h3 {
 }
 
 /* hero */
-#hero h1 {
+#hero {
+  padding-top: 0;
+}
+
+#hero h3 {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.typed {
+  display: inline-flex;
   font-family: "Courier New", Courier, monospace;
+  font-size: 5rem;
+  word-break: break-all;
+  overflow: hidden;
+  border-right: 0.05em solid var(--dark-gray);
+  height: 1.2em;
+  /* white-space: nowrap; */
+  letter-spacing: 0.05em;
+  /* margin: auto; */
+  max-width: max-content;
+  animation: typing 3s steps(24, end) infinite alternate,
+    blink-caret 0.75s step-end infinite;
+}
+
+.typed:before {
+  content: " ";
+  display: inline-block;
+}
+
+#hero a:hover {
+  transform: scale(1.25);
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--dark-gray);
+  }
 }
 
 /* projects */
 .card {
   background-color: var(--med-gray);
-  border: white;
+  border: 1px solid var(--silver);
   border-radius: 0px;
+}
+
+.card img {
+  min-height: 150px;
 }
 
 /* contact */
@@ -97,13 +138,13 @@ h3 {
   background-color: var(--light-silver);
 }
 
-#contact button {
+.dark-button {
   background-color: var(--dark-gray);
   border-radius: 0px;
   border: none;
 }
 
-#contact button:hover {
+.dark-button:hover {
   background-color: var(--light-gray);
 }
 
@@ -112,4 +153,16 @@ h3 {
   min-height: 10vh;
   background-color: var(--dark-gray);
   color: var(--light-silver);
+}
+
+.modal-content {
+  background-color: var(--light-silver);
+}
+
+.modal-header {
+  border-bottom: 1px solid var(--dark-gray);
+}
+
+.modal-footer {
+  border-top: 1px solid var(--dark-gray);
 }

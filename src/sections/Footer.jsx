@@ -32,7 +32,7 @@ const Footer = () => {
                 <img src="img/email.png" alt="mail icon" width="22px" />
               </a>
             </div>
-            <div className="pt-2 small">Designed and coded by me, josh.</div>
+            <div className="pt-2 small">designed and coded by me, josh.</div>
           </div>
         </div>
       </div>
