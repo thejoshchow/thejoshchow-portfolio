@@ -9,7 +9,11 @@ const Hero = () => {
           <h1 className="typed">joshua chow</h1>
           <h3>{"<full-stack software engineer />"}</h3>
           <div className="d-flex flex-row">
-            <a className="mx-3" href="https://linkedin.com/in/thejoshchow">
+            <a
+              className="mx-3"
+              href="https://linkedin.com/in/thejoshchow"
+              target="_blank"
+            >
               <img
                 src="img/linkedin.png"
                 alt="..."
@@ -17,7 +21,11 @@ const Hero = () => {
                 height="45px"
               />
             </a>
-            <a className="mx-3" href="https://github.com/thejoshchow">
+            <a
+              className="mx-3"
+              href="https://github.com/thejoshchow"
+              target="_blank"
+            >
               <img src="img/github.png" alt="..." width="45px" hegiht="45px" />
             </a>
             <a className="mx-3" href="mailto:thejoshchow@gmail.com">

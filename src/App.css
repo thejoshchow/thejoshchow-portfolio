@@ -84,8 +84,8 @@
   letter-spacing: 0.05em;
   /* margin: auto; */
   max-width: max-content;
-  animation: typing 3s steps(24, end) infinite alternate,
-    blink-caret 0.65s step-end infinite;
+  animation: typing 3s steps(24, end) infinite alternate;
+  /* blink-caret 0.65s step-end infinite; */
 }
 
 .typed:before {

@@ -32,7 +32,12 @@ const NavBar = () => {
               contact
             </Nav.Item>
             <Nav.Item>
-              <a className="nav-button" role="button" href="../chow_joshua.pdf">
+              <a
+                className="nav-button"
+                role="button"
+                href="../chow_joshua.pdf"
+                target="_blank"
+              >
                 resume
               </a>
             </Nav.Item>
