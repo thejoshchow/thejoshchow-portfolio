@@ -10,13 +10,18 @@ const Hero = () => {
           <h3>{"<full-stack software engineer />"}</h3>
           <div className="d-flex flex-row">
             <a className="mx-3" href="https://linkedin.com/in/thejoshchow">
-              <img src="img/linkedin.png" width="45px" height="45px" />
+              <img
+                src="img/linkedin.png"
+                alt="..."
+                width="45px"
+                height="45px"
+              />
             </a>
             <a className="mx-3" href="https://github.com/thejoshchow">
-              <img src="img/github.png" width="45px" hegiht="45px" />
+              <img src="img/github.png" alt="..." width="45px" hegiht="45px" />
             </a>
             <a className="mx-3" href="mailto:thejoshchow@gmail.com">
-              <img src="img/email.png" width="45px" height="45px" />
+              <img src="img/email.png" alt="..." width="45px" height="45px" />
             </a>
           </div>
         </div>
