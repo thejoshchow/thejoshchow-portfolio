@@ -25,6 +25,7 @@ const NavBar = () => {
             <Navbar.Brand
               className="mx-3 nav-brand logo"
               onClick={() => scrollToSection("hero")}
+              style={{ cursor: "pointer" }}
             >
               <img src="jmc-logo.png" width="30px" height="30px" alt="logo" />
             </Navbar.Brand>
