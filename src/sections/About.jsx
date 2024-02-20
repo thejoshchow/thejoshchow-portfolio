@@ -6,7 +6,7 @@ const About = () => {
       <div className="d-flex flex-row flex-wrap align-items-center justify-content-center">
         <div className="col-12 col-lg-6 d-flex flex-column align-items-end"></div>
         <div
-          className="col-12 col-lg-6 d-flex flex-column align-items-start"
+          className="col-12 col-lg-6 d-flex flex-column align-items-start p-3"
           style={{ paddingRight: "10%" }}
         >
           <h1>hello, world</h1>

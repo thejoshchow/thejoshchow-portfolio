@@ -5,7 +5,7 @@ const Hero = () => {
     <section id="hero" className="section row">
       <div className="d-flex justify-content-center align-items-center">
         {/* <div className="container d-flex row flex-wrap"> */}
-        <div className="col-12 col-lg-6 d-flex flex-column align-items-end">
+        <div className="col-12 col-lg-6 d-flex flex-column align-items-end p-3">
           <h1 className="typed">joshua chow</h1>
           <h3>{"<full-stack software engineer />"}</h3>
           <div className="d-flex flex-row">
