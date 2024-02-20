@@ -83,7 +83,7 @@ const Projects = () => {
     // },
   ];
   return (
-    <section id="projects" className="section">
+    <section id="projects" className="section d-flex align-items-center">
       <div className="container d-flex flex-column align-items-between justify-content-center m-auto">
         <div className="row d-flex p-3 mb-5">
           <div className="p-5">
