@@ -24,16 +24,12 @@ const Footer = () => {
           >
             <img src="img/github.png" alt="github icon" width="22px" />
           </a>
-          <a
-            className="p-2 mail"
-            href="mailto:thejoshchow@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a className="p-2 mail" href="mailto:thejoshchow@gmail.com">
             <img src="img/email.png" alt="mail icon" width="22px" />
           </a>
         </div>
-        <div className="pt-2 small">designed and coded by me, josh.</div>
+        {/* <div className="pt-2 small">designed and coded by me, josh</div> */}
+        <div className="pt-2 small">I open at the close</div>
       </div>
     </section>
   );
