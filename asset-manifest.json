@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/thejoshchow.gitlab.io/static/css/main.38b86c0b.css",
+    "main.js": "/thejoshchow.gitlab.io/static/js/main.5a5a2da4.js",
+    "static/js/453.bfcf6384.chunk.js": "/thejoshchow.gitlab.io/static/js/453.bfcf6384.chunk.js",
+    "static/media/HelveticaRoman.ttf": "/thejoshchow.gitlab.io/static/media/HelveticaRoman.b3084037424d33ecef25.ttf",
+    "index.html": "/thejoshchow.gitlab.io/index.html",
+    "main.38b86c0b.css.map": "/thejoshchow.gitlab.io/static/css/main.38b86c0b.css.map",
+    "main.5a5a2da4.js.map": "/thejoshchow.gitlab.io/static/js/main.5a5a2da4.js.map",
+    "453.bfcf6384.chunk.js.map": "/thejoshchow.gitlab.io/static/js/453.bfcf6384.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38b86c0b.css",
+    "static/js/main.5a5a2da4.js"
+  ]
+}
