@@ -35,7 +35,7 @@ const NavBar = () => {
               <a
                 className="nav-button"
                 role="button"
-                href="../chow_joshua.pdf"
+                href="../joshua_chow.pdf"
                 target="_blank"
               >
                 resume
