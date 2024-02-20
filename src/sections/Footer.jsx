@@ -29,7 +29,7 @@ const Footer = () => {
           </a>
         </div>
         {/* <div className="pt-2 small">designed and coded by me, josh</div> */}
-        <div className="pt-2 small">I open at the close</div>
+        <div className="pt-2 small">thanks for visiting</div>
       </div>
     </section>
   );

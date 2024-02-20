@@ -2,12 +2,12 @@ import React from "react";
 
 const About = () => {
   return (
-    <section id="about" className="section row">
+    <section id="about" className="section d-flex align-items-center">
       <div className="d-flex flex-row flex-wrap align-items-center justify-content-center">
         <div className="col-12 col-lg-6 d-flex flex-column align-items-end"></div>
         <div
-          className="col-12 col-lg-6 d-flex flex-column align-items-start p-3"
-          style={{ paddingRight: "10%" }}
+          className="col-12 col-lg-6 d-flex flex-column align-items-start"
+          style={{ paddingRight: "10%", paddingLeft: "1rem" }}
         >
           <h1>hello, world</h1>
           <h1 className="py-3">i'm josh</h1>
@@ -23,19 +23,19 @@ const About = () => {
             software development and the vast wilderness beyond.
           </p>
         </div>
-      </div>
-      <div className="container m-auto">
-        <div className="d-flex flex-row justify-content-center flex-wrap">
-          <h5 className="tech">python</h5>
-          <h5 className="tech">javascript</h5>
-          <h5 className="tech">react</h5>
-          <h5 className="tech">redux</h5>
-          <h5 className="tech">fastapi</h5>
-          <h5 className="tech">django</h5>
-          <h5 className="tech">vue.js</h5>
-          <h5 className="tech">flask</h5>
-          <h5 className="tech">html</h5>
-          <h5 className="tech">css</h5>
+        <div className="container m-auto">
+          <div className="d-flex flex-row justify-content-center flex-wrap">
+            <h5 className="tech">python</h5>
+            <h5 className="tech">javascript</h5>
+            <h5 className="tech">react</h5>
+            <h5 className="tech">redux</h5>
+            <h5 className="tech">fastapi</h5>
+            <h5 className="tech">django</h5>
+            <h5 className="tech">vue.js</h5>
+            <h5 className="tech">flask</h5>
+            <h5 className="tech">html</h5>
+            <h5 className="tech">css</h5>
+          </div>
         </div>
       </div>
     </section>
