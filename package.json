@@ -2,7 +2,7 @@
   "name": "thejoshchow-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "thejoshchow.gitlab.io",
+  "homepage": "https://thejoshchow.gitlab.io",
   "dependencies": {
     "@emailjs/browser": "^4.1.0",
     "@testing-library/jest-dom": "^5.17.0",
