@@ -16,9 +16,11 @@ const Projects = () => {
           alt="..."
         />
         <Card.Header className="d-flex justify-content-around">
-          <a className="btn card-button" href={project.website}>
-            live
-          </a>
+          {project.website === "" ? null : (
+            <a className="btn card-button" href={project.website}>
+              live
+            </a>
+          )}
           <a className="btn card-button" href={project.repo}>
             source
           </a>
@@ -42,7 +44,7 @@ const Projects = () => {
       name: "Portfolio",
       screenshot: "img/portfolio.png",
       description:
-        "This app. What you're looking at now. Whoa. App-ception. Single-page application built with React and selective styling using Bootstrap and HTML/CSS.",
+        "This app. What you're looking at now. Whoa. App-ception. Single-page application built with React and selective styling using Bootstrap and HTML/CSS. Built a simple CD workflow with Github Actions and Pages to build and deploy the application.",
       tech: ["Javascript", "React", "Bootstrap", "HTML", "CSS"],
       website: "https://thejoshchow.netlify.app",
       repo: "https://github.com/thejoshchow/thejoshchow-portfolio",
