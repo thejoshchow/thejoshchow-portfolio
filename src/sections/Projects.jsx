@@ -44,7 +44,7 @@ const Projects = () => {
       name: "Portfolio",
       screenshot: "img/portfolio.png",
       description:
-        "This app. What you're looking at now. Whoa. App-ception. Single-page application built with React and selective styling using Bootstrap and HTML/CSS. Built a simple CD workflow with Github Actions and Pages to build and deploy the application.",
+        "This app. What you're looking at now. Whoa. App-ception. Single-page application built with React and selective styling using Bootstrap and HTML/CSS. Deployed by a CI/CD workflow with Github Actions and Pages.",
       tech: ["Javascript", "React", "Bootstrap", "HTML", "CSS"],
       website: "https://thejoshchow.github.io",
       repo: "https://github.com/thejoshchow/thejoshchow-portfolio",
