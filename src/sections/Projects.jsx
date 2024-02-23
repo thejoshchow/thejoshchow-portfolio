@@ -46,7 +46,7 @@ const Projects = () => {
       description:
         "This app. What you're looking at now. Whoa. App-ception. Single-page application built with React and selective styling using Bootstrap and HTML/CSS. Built a simple CD workflow with Github Actions and Pages to build and deploy the application.",
       tech: ["Javascript", "React", "Bootstrap", "HTML", "CSS"],
-      website: "https://thejoshchow.netlify.app",
+      website: "https://thejoshchow.github.io",
       repo: "https://github.com/thejoshchow/thejoshchow-portfolio",
     },
     {
