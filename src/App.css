@@ -181,6 +181,10 @@
   color: var(--silver);
 }
 
+.badge:hover {
+  cursor: default;
+}
+
 /* contact */
 .form-control {
   background-color: var(--light-silver);
